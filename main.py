@@ -1,8 +1,11 @@
 """Copy the entry image to the output directory.
 
 The entry is a pre-rendered PNG (entry.png, next to this file) that sums
-up the world news of Saturday 21 November 2026. This program only copies
-it to $MAKEFUN_OUTPUT_DIR/entry.png, so both runs write identical bytes.
+up the world news of Saturday 21 November 2026 as a newspaper front
+page: masthead, date band, eight photo stories with headlines, and a
+footer ticker. v2 replaces the v1 icon grid with AI-generated photo
+illustrations and two more stories. This program only copies it to
+$MAKEFUN_OUTPUT_DIR/entry.png, so both runs write identical bytes.
 Standard library only; no network.
 """
 
